@@ -118,3 +118,4 @@ knitr::include_graphics("img/unis.png")
 ```
 ]
 ##contato: felipe.plmelo@ufpe.br
+pagedown::chrome_print("https://github.com/fplmelo/site_proj_sus/forest_people_intro.html")

@@ -8,14 +8,14 @@ encoding: "UTF-8"
 output: 
   xaringan::moon_reader:
     libs_dir: libs
-    css: [robot, tamu-fonts]
+    css: [tamu-fonts, default]
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
       ratio: '16:9'
       beforeInit: "macros.js"
-knit: pagedown::chrome_print
+
 ---
 
 ```{r setup, include=FALSE}
@@ -25,22 +25,30 @@ options(htmltools.dir.version = FALSE)
 
 # A _Caatinga_, seus povos e suas florestas
 .center[
-<img src="http://cienciaecultura.bvs.br/img/revistas/cic/v70n4/a09fig01.jpg" height = 500>]
+```{r, echo=FALSE}
+knitr::include_graphics("img/caat.png")
+```
+]
 ---
 # A Caatinga, seus _povos_ e suas florestas
+
 ```{r, echo=FALSE}
 knitr::include_graphics("img/pessoas.png")
 ```
 
 ---
 # A Caatinga, seus povos e suas _florestas_
-<img src ="https://mapbiomas-br-site.s3.amazonaws.com/Infograficos/Colecao5/MBI-Infografico-caatinga-5.0-BR.jpg">
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/mapbiom_caat.png")
+```
+
 
 ---
 # OBJETIVO: Medir a sensibilidade do socioecossistema da Caatinga às mudanças climáticas
 .center[
 ```{r, echo=FALSE, out.width="80%"}
-knitr::include_graphics("img/Vulnerability.jpg")
+knitr::include_graphics("img/vulner.png")
 ```
 ]
 

@@ -23,20 +23,6 @@ options(htmltools.dir.version = FALSE)
 
 ```
 
-```{r xaringan-themer, include=FALSE, warning=FALSE}
-library(xaringanthemer)
-style_duo_accent(
-  primary_color = "#1381B0",
-  secondary_color = "#FF961C",
-  inverse_header_color = "#FFFFFF"
-)
-
-style_duo(primary_color = "#1F4257", secondary_color = "#F97B64")
-source("https://git.io/xaringan2pdf")
-
-
-```
-
 # A _Caatinga_, seus povos e suas florestas
 .center[
 <img src="http://cienciaecultura.bvs.br/img/revistas/cic/v70n4/a09fig01.jpg" height = 500>]
@@ -118,4 +104,4 @@ knitr::include_graphics("img/unis.png")
 ```
 ]
 ##contato: felipe.plmelo@ufpe.br
-pagedown::chrome_print("https://github.com/fplmelo/site_proj_sus/forest_people_intro.html")
+
